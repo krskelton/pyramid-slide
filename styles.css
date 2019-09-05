@@ -1,0 +1,49 @@
+html{
+    font-family: 'Hepta Slab', serif;
+}
+body{
+    margin:0;
+}
+header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #af6397;
+}
+h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+#app {
+    background: #eee;
+    border: 1px solid #af6397;
+    width:100%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+form {
+    background: #ccc;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+label {
+    font-size: 15px;
+    font-weight: 400;
+    width: 50%;
+}
+select#character, span#height {
+    FONT-WEIGHT: 600;
+    font-size: 18px;
+}
+span#height{
+    margin-left:10px;
+}
+#pyramid {
+    text-align: center;
+    color: #af6397;
+    font-size: 20px;
+    padding:40px;
+}
